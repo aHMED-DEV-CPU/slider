@@ -1,0 +1,28 @@
+body {
+    background-color: #24353f;
+    min-height: 100vh;
+    
+}
+.item {
+background-color: #0dcaf0;
+padding: 5px;
+}
+.lightBoxContainer {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.innerBox {
+    background-image:  url(../images/work-1.jpg);
+    background-size: cover;
+    width: 700px;
+height: 500px;
+
+}
+i {
+    cursor: pointer;
+    color: #0dcaf0;
+}
